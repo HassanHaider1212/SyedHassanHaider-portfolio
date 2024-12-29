@@ -17,6 +17,5 @@ Welcome to my personal portfolio! This repository showcases my expertise as a so
 ## Connect with Me:
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-hassan-haider-ba54a0269)  
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/HassanHaider1212)  
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:syedecommerce5912@gmail.com)  
-[![Phone](https://img.shields.io/badge/-Phone-25D366?style=flat&logo=whatsapp&logoColor=white)](tel:+923074619656)  
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:syedecommerce5912@gmail.com)
 
