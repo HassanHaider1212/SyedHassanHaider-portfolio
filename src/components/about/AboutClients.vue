@@ -13,11 +13,13 @@ export default {
 					id: 1,
 					title: 'Caregenix Solutions',
 					img: require('@/assets/images/brands/caregenixSolutions.jpeg'),
+					website: 'https://caregenixsolutions.com/',
 				},
 				{
 					id: 1,
 					title: 'Emergtech Pvt Ltd.',
 					img: require('@/assets/images/brands/emegTechPvtLtd.jpeg'),
+					website: 'https://emergtechsolutions.com/',
 				},
 				// {
 				// 	id: 2,

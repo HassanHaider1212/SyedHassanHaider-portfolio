@@ -46,7 +46,7 @@ export default {
 				// Update the component data based on the project
 				this.singleProjectHeader = {
 					singleProjectTitle: this.project.title,
-					singleProjectDate: 'Jul 26, 2021', // Replace with actual date if available
+					singleProjectDate: this.project.date, // Replace with actual date if available
 					singleProjectTag: this.project.category,
 				};
 
@@ -75,51 +75,42 @@ export default {
 						{
 							id: 3,
 							title: 'Website',
-							details: 'https://company.com',
+							details: this.project.website,
 						},
 						{
 							id: 4,
 							title: 'Phone',
-							details: '555 8888 888',
+							details: this.project.phone,
 						},
 					],
 					objectivesHeading: 'Objective',
-					objectivesDetails:
-						'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+					objectivesDetails: this.project.objectivesDetails,
 					technologies: [
 						{
 							title: 'Tools & Technologies',
-							techs: [
-								'HTML',
-								'CSS',
-								'JavaScript',
-								'Vue.js',
-								'TailwindCSS',
-								'AdobeXD',
-							],
+							techs: this.project.techs,
 						},
 					],
 					projectDetailsHeading: 'Challenge',
 					projectDetails: [
 						{
 							id: 1,
-							details:
-								'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-						},
+							details: this.project.projectDetails,
+            },
 					],
 					socialSharingsHeading: 'Share This',
 					socialSharings: [
-						{
-							id: 1,
-							name: 'Twitter',
-							icon: 'twitter',
-							url: 'https://twitter.com/realstoman',
-						},
+						// {
+						// 	id: 1,
+						// 	name: 'Twitter',
+						// 	icon: 'twitter',
+						// 	url: 'https://twitter.com/realstoman',
+						// },
 						{
 							id: 2,
 							name: 'Instagram',
 							icon: 'instagram',
-							url: 'https://instagram.com/realstoman',
+							url: 'https://www.instagram.com/hassanhaider3632/',
 						},
 					],
 				};
