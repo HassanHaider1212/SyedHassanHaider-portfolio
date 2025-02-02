@@ -4,9 +4,9 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Warehouse Management System',
 		category: 'Web Application',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: require('@/assets/images/WMS-project.jpg'),
 	},
 	{
 		id: 2,

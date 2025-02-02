@@ -82,10 +82,11 @@ export default {
 		>
 			<!-- Header menu links and small screen hamburger menu -->
 			<div class="flex justify-between items-center px-4 sm:px-0">
-				<!-- Header logos -->
+				<!-- Header logos
 				<div>
 					<router-link to="/"
-						><img
+						>
+						<img
 							v-if="theme === 'light'"
 							src="@/assets/images/logo-dark.svg"
 							class="w-36"
@@ -98,6 +99,26 @@ export default {
 							alt="Light Logo"
 						/>
 					</router-link>
+				</div> -->
+
+				<!-- Header logos -->
+				<div>
+				<router-link to="/">
+					<span
+					v-if="theme === 'light'"
+					class="text-dark font-bold text-2xl"
+					alt="Dark Logo"
+					>
+					Home
+					</span>
+					<span
+					v-else
+					class="text-white font-bold text-2xl"
+					alt="Light Logo"
+					>
+					Home
+					</span>
+				</router-link>
 				</div>
 
 				<!-- Theme switcher small screen -->

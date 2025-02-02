@@ -135,11 +135,13 @@ export default {
 		<div
 			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10"
 		>
-			<ProjectSingle
+			<ProjectSingle 
 				v-for="project in filteredProjects"
 				:key="project.id"
 				:project="project"
+				:projectId="project.id"
 			/>
+
 		</div>
 	</section>
 </template>
