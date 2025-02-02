@@ -3,7 +3,7 @@ export const socialLinks = [
 		id: 1,
 		name: 'Website',
 		icon: 'globe',
-		url: '#',
+		url: 'https://syed-hassan-haider-portfolio.vercel.app/',
 	},
 	{
 		id: 2,

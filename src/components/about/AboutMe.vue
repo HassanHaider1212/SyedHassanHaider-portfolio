@@ -6,12 +6,12 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'I am a highly motivated software engineer with a strong background in developing both desktop and web applications. My expertise lies in ASP.NET Core development, front-end technologies like React and Angular, and robust database management with SQL. With a keen eye for detail and a passion for problem-solving, I thrive in collaborative environments where I can contribute to innovative solutions that drive business success. I am eager to continue growing my skills and making meaningful contributions to the tech industry.'
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'Aspiring to advance in a dynamic and reputable organization where I can leverage my software engineering skills to drive innovation and enhance productivity. I am committed to delivering high-quality solutions with a strategic focus on optimizing processes and contributing to the organization\'s growth.'
 				},
 			],
 		};
@@ -24,7 +24,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile.jpeg"
+				src="@/assets/images/profilePicture.jpeg"
 				class="rounded-xl w-96"
 				alt=""
 			/>

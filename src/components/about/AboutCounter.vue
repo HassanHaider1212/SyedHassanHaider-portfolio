@@ -26,7 +26,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="12"
+					:endAmount="2"
 					:duration="1"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
@@ -40,7 +40,7 @@ export default {
 				</span>
 			</div>
 
-			<!-- GitHub stars counter -->
+			<!-- GitHub stars counter 
 			<div class="mb-20 sm:mb-0">
 				<counter
 					ref="counter"
@@ -56,14 +56,14 @@ export default {
 					class="block text-md text-ternary-dark dark:text-ternary-light"
 					>{{ githubTitle }}</span
 				>
-			</div>
+			</div>-->
 
 			<!-- Positive feedback counter -->
 			<div class="mb-20 sm:mb-0">
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="92"
+					:endAmount="98"
 					:duration="1"
 					suffix="%"
 					:autoinit="true"
@@ -82,7 +82,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="77"
+					:endAmount="15"
 					:duration="1"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
