@@ -18,7 +18,8 @@ export default {
 		<!-- Single project left section details -->
 		<div class="w-full sm:w-1/3 text-left">
 			<!-- Single project client details -->
-			<div class="mb-7">
+			<div class=""> 
+				<!-- mb-7 -->
 				<p
 					class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2"
 				>
@@ -108,7 +109,7 @@ export default {
 				v-for="projectDetail in projectInfo.projectDetails"
 				:key="projectDetail.id"
 				class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-				v-html="projectDetail.details"
+				v-html="projectDetail.details.replace(/\n/g, '<br>')"
 			></p>
 			
 			<!-- Add Video Below "Challenge" -->

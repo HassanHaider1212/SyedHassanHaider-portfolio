@@ -60,29 +60,29 @@ export default {
 				];
 
 				this.projectInfo = {
-					clientHeading: 'About Client',
-					companyInfos: [
-						{
-							id: 1,
-							title: 'Name',
-							details: this.project.companyName,
-						},
-						{
-							id: 2,
-							title: 'Services',
-							details: this.project.category,
-						},
-						{
-							id: 3,
-							title: 'Website',
-							details: this.project.website,
-						},
-						{
-							id: 4,
-							title: 'Phone',
-							details: this.project.phone,
-						},
-					],
+					// clientHeading: 'About Client',
+					// companyInfos: [
+					// 	{
+					// 		id: 1,
+					// 		title: 'Name',
+					// 		details: this.project.companyName,
+					// 	},
+					// 	{
+					// 		id: 2,
+					// 		title: 'Services',
+					// 		details: this.project.category,
+					// 	},
+					// 	{
+					// 		id: 3,
+					// 		title: 'Website',
+					// 		details: this.project.website,
+					// 	},
+					// 	{
+					// 		id: 4,
+					// 		title: 'Phone',
+					// 		details: this.project.phone,
+					// 	},
+					// ],
 					objectivesHeading: 'Objective',
 					objectivesDetails: this.project.objectivesDetails,
 					technologies: [
@@ -91,7 +91,7 @@ export default {
 							techs: this.project.techs,
 						},
 					],
-					projectDetailsHeading: 'Challenge',
+					projectDetailsHeading: 'Project Overview',
 					projectDetails: [
 						{
 							id: 1,

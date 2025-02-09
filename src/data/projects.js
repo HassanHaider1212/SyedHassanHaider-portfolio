@@ -11,22 +11,22 @@ const projects = [
 		img: require('@/assets/images/WMS-project.jpg'),
 		website: '#',
 		phone: '#',
-		objectivesDetails: 'Developed a comprehensive Warehouse Management System using React for the frontend and ASP.NET Core with SQL Server for the backend, optimizing inventory tracking and order management.',
+		objectivesDetails: 'Designed and implemented a Warehouse Management System to streamline inventory tracking, automate order fulfillment, and enhance operational efficiency. The system ensures accurate stock management, optimized warehouse workflows, and seamless order processing.',
 		techs: ['React', 'Tailwind CSS', 'ASP.NET Core', 'SQL Server', 'RESTful APIs'],
-		projectDetails: `Engineered a scalable Warehouse Management System to:\n
-			- Enhance inventory control 📦\n
-			- Automate order fulfillment 🚀\n
-			- Optimize warehouse workflows for accuracy & efficiency ✅\n\n
-			**Key Processes & Steps:**\n
-			- **User Access Control (UAC):** Role-based access for secure module management 🔐\n
-			- **Purchase Orders (PO):** Order creation, approval, and tracking from vendors 📝\n
-			- **Goods Receipt:** Verification and recording of received stock 📥\n
-			- **Putaway Process:** Storing received goods in designated warehouse locations 🏬\n
-			- **Inventory Management:** Real-time tracking of stock across bins, pallets, and zones 📊\n
-			- **Sales Orders:** Managing customer orders, payments, and fulfillment 🛒\n
-			- **Picking & Packing:** Order picking from inventory and packing for dispatch 📦\n
-			- **Shipping & Dispatch:** Managing outbound shipments and tracking deliveries 🚚\n
-			- **Stock Movements:** Logging inbound and outbound stock transfers for inventory accuracy 🔄`,
+		projectDetails: `<i>Engineered a scalable Warehouse Management System to:</i>\n
+			- Enhance inventory control 📦
+			- Automate order fulfillment 🚀
+			- Optimize warehouse workflows for accuracy & efficiency ✅\n
+			<i>Key Processes & Steps:</i>\n
+			- User Access Control (UAC): Role-based access for secure module management 🔐
+			- Purchase Orders (PO): Order creation, approval, and tracking from vendors 📝
+			- Goods Receipt: Verification and recording of received stock 📥
+			- Putaway Process: Storing received goods in designated warehouse locations 🏬
+			- Inventory Management: Real-time tracking of stock across bins, pallets, and zones 📊
+			- Sales Orders: Managing customer orders, payments, and fulfillment 🛒
+			- Picking & Packing: Order picking from inventory and packing for dispatch 📦
+			- Shipping & Dispatch: Managing outbound shipments and tracking deliveries 🚚
+			- Stock Movements: Logging inbound and outbound stock transfers for inventory accuracy 🔄`,
 		videoUrl: require("@/assets/videos/WMS_Workflow_Demo.mp4")
 	},
 	{
