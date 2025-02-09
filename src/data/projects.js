@@ -77,30 +77,6 @@ const projects = [
 		techs: ['MERN', 'SQL Server', 'JavaScript'],
 		projectDetails: 'Plotzo is an advanced web platform designed to streamline and enhance the operational activities of the real estate industry. From comprehensive property management to efficient handling of real estate agencies, agents, and clients. The system also manages financial transactions, ensuring smooth and transparent operations. Built using the powerful MERN stack, REMS offers a robust and scalable solution for real estate professionals. Additionally, the platform features live chat functionality, facilitating instant communication and improving user engagement and satisfaction.',
 		videoUrl: require("@/assets/videos/Plotzo.mp4")
-	},
-	{
-		id: 6,
-		title: 'PayPal Integration',
-		category: 'Third Party Integration',
-		companyName: '#',
-		img: require('@/assets/images/paypal.png'),
-		website: 'Real Estate Platform',
-		phone: '555 4444 444',
-		objectivesDetails: 'To integrate PayPal Complete Payments API into an ASP.NET Core application, enabling secure and seamless order creation, payment processing, and webhook handling for real-time transaction updates.',
-		techs: ['ASP.NET Core', 'RESTful APIs', 'IIS', 'Postman'],
-		projectDetails: `✅ Successfully integrated PayPal Complete Payments API into an ASP.NET Core application, ensuring seamless and secure transactions.
-			✅ Implemented order creation, payment capture, and webhook handling for real-time payment status updates.
-			✅ Deployed the solution on IIS with robust security configurations for reliability and performance.
-
-			🔄 Payment Flow Overview
-			✔ Step 1: Create Order (/v2/checkout/orders)
-			✔ Step 2: Redirect User for Approval (Approve Link)
-			✔ Step 3: Capture Payment (/v2/checkout/orders/{id}/capture)
-			✔ Step 4: Process Webhooks (PAYMENT.CAPTURE.COMPLETED)
-
-			This integration enhances the payment workflow, providing a smooth, automated, and secure transaction experience. 🚀
-		`,
-		videoUrl: require("@/assets/videos/paypal.mp4")
 	}
 ];
 
