@@ -62,7 +62,7 @@ const projects = [
 		website: 'ParkEase',
 		phone: '555 9999 999',
 		objectivesDetails: 'Pioneered Smart Parking System with security cameras and computer vision, optimizing real-time occupancy tracking, route planning, and crime detection.',
-		techs: ['Computer Vision', 'Python FastAPI', 'Machine Learning'],
+		techs: ['Computer Vision', 'Python EEL', 'Machine Learning'],
 		projectDetails: 'Delivered user-friendly solution as a desktop application, enhancing urban parking efficiency.'
 	},
 	{
@@ -74,8 +74,9 @@ const projects = [
 		website: 'Real Estate Platform',
 		phone: '555 4444 444',
 		objectivesDetails: 'Developed a real estate website that connects buyers with sellers and tenants with landlords for a highly user-friendly experience.',
-		techs: ['ASP.NET Core', 'SQL Server', 'JavaScript'],
-		projectDetails: 'Implemented SQL database for efficient data management and ASP.NET Core for robust backend operations.'
+		techs: ['MERN', 'SQL Server', 'JavaScript'],
+		projectDetails: 'Plotzo is an advanced web platform designed to streamline and enhance the operational activities of the real estate industry. From comprehensive property management to efficient handling of real estate agencies, agents, and clients. The system also manages financial transactions, ensuring smooth and transparent operations. Built using the powerful MERN stack, REMS offers a robust and scalable solution for real estate professionals. Additionally, the platform features live chat functionality, facilitating instant communication and improving user engagement and satisfaction.',
+		videoUrl: require("@/assets/videos/Plotzo.mp4")
 	}
 ];
 
