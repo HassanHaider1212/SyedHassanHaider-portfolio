@@ -108,9 +108,14 @@ export default {
 				v-for="projectDetail in projectInfo.projectDetails"
 				:key="projectDetail.id"
 				class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-			>
-				{{ projectDetail.details }}
-			</p>
+				v-html="projectDetail.details"
+			></p>
+			
+			<!-- Add Video Below "Challenge" -->
+			<video v-if="projectInfo.videoUrl" controls class="w-full mt-5 rounded-lg shadow-lg">
+				<source :src="projectInfo.videoUrl" type="video/mp4" />
+				Your browser does not support the video tag.
+			</video>
 		</div>
 	</div>
 </template>

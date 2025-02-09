@@ -5,19 +5,35 @@ const projects = [
 	{
 		id: 1,
 		title: 'Warehouse Management System',
-		date: 'Jul 26, 2021',
+		date: 'November 27, 2024 - January 31, 2025',
 		category: 'Web Application',
+		companyName: '#',
 		img: require('@/assets/images/WMS-project.jpg'),
-		website: 'WMS Website',
-		phone: '555 8888 888',
+		website: '#',
+		phone: '#',
 		objectivesDetails: 'Developed a comprehensive Warehouse Management System using React for the frontend and ASP.NET Core with SQL Server for the backend, optimizing inventory tracking and order management.',
-		techs: ['React', 'ASP.NET Core', 'SQL Server', 'RESTful APIs'],
-		projectDetails: 'Implemented user-friendly interfaces and efficient RESTful APIs, enhancing operational efficiency and ensuring real-time data synchronization.'
+		techs: ['React', 'Tailwind CSS', 'ASP.NET Core', 'SQL Server', 'RESTful APIs'],
+		projectDetails: `Engineered a scalable Warehouse Management System to:\n
+			- Enhance inventory control 📦\n
+			- Automate order fulfillment 🚀\n
+			- Optimize warehouse workflows for accuracy & efficiency ✅\n\n
+			**Key Processes & Steps:**\n
+			- **User Access Control (UAC):** Role-based access for secure module management 🔐\n
+			- **Purchase Orders (PO):** Order creation, approval, and tracking from vendors 📝\n
+			- **Goods Receipt:** Verification and recording of received stock 📥\n
+			- **Putaway Process:** Storing received goods in designated warehouse locations 🏬\n
+			- **Inventory Management:** Real-time tracking of stock across bins, pallets, and zones 📊\n
+			- **Sales Orders:** Managing customer orders, payments, and fulfillment 🛒\n
+			- **Picking & Packing:** Order picking from inventory and packing for dispatch 📦\n
+			- **Shipping & Dispatch:** Managing outbound shipments and tracking deliveries 🚚\n
+			- **Stock Movements:** Logging inbound and outbound stock transfers for inventory accuracy 🔄`,
+		videoUrl: require("@/assets/videos/WMS_Workflow_Demo.mp4")
 	},
 	{
 		id: 2,
 		title: 'Diamond Paint – Work in Process (WIP) Application',
 		category: 'Desktop Application',
+		companyName: '#',
 		img: require('@/assets/images/diamond-paint.jpg'),
 		website: 'Diamond Paint WIP',
 		phone: '555 7777 777',
@@ -29,6 +45,7 @@ const projects = [
 		id: 3,
 		title: 'User Access Control',
 		category: 'Desktop Application',
+		companyName: '#',
 		img: require('@/assets/images/uac.jpg'),
 		website: 'UAC Application',
 		phone: '555 6666 666',
@@ -40,6 +57,7 @@ const projects = [
 		id: 4,
 		title: 'ParkEase - Smart Parking System (FYP)',
 		category: 'Desktop Application',
+		companyName: '#',
 		img: require('@/assets/images/park-ease.jpg'),
 		website: 'ParkEase',
 		phone: '555 9999 999',
@@ -51,6 +69,7 @@ const projects = [
 		id: 5,
 		title: 'Real Estate Website',
 		category: 'Web Application',
+		companyName: '#',
 		img: require('@/assets/images/real-estate.jpg'),
 		website: 'Real Estate Platform',
 		phone: '555 4444 444',

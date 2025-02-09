@@ -65,7 +65,7 @@ export default {
 						{
 							id: 1,
 							title: 'Name',
-							details: 'Company Ltd',
+							details: this.project.companyName,
 						},
 						{
 							id: 2,
@@ -96,8 +96,9 @@ export default {
 						{
 							id: 1,
 							details: this.project.projectDetails,
-            },
+						},
 					],
+					videoUrl: this.project.videoUrl,
 					socialSharingsHeading: 'Share This',
 					socialSharings: [
 						// {
