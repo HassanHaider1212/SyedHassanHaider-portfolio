@@ -11,15 +11,21 @@ export default {
 			clients: [
 				{
 					id: 1,
-					title: 'Caregenix Solutions',
-					img: require('@/assets/images/brands/caregenixSolutions.jpeg'),
-					website: 'https://caregenixsolutions.com/',
+					title: 'CureMD',
+					img: require('@/assets/images/brands/cureMD.png'),
+					website: 'https://www.curemd.com/',
 				},
 				{
-					id: 1,
+					id: 2,
 					title: 'Emergtech Pvt Ltd.',
 					img: require('@/assets/images/brands/emegTechPvtLtd.jpeg'),
 					website: 'https://emergtechsolutions.com/',
+				},
+				{
+					id: 3,
+					title: 'Caregenix Solutions',
+					img: require('@/assets/images/brands/caregenixSolutions.jpeg'),
+					website: 'https://caregenixsolutions.com/',
 				},
 				// {
 				// 	id: 2,

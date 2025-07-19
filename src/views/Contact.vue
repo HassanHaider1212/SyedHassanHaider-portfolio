@@ -13,7 +13,7 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Block E, Johar Town, Lahore, Pakistan',
+					name: 'Lahore, Pakistan',
 					icon: 'map-pin',
 				},
 				{

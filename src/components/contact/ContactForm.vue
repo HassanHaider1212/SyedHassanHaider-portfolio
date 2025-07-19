@@ -63,6 +63,7 @@ export default {
 			text: 'Your message has been sent successfully.',
 			confirmButtonColor: '#6366f1', // Indigo color
 			});
+			e.target.reset();
         }, (error) => {
           console.error('Failed to send email:', error.text);
           // Error alert
@@ -86,7 +87,7 @@ export default {
       </p>
       <form @submit="sendEmail" class="font-general-regular space-y-7">
         <FormInput label="Full Name" inputIdentifier="name" />
-        <FormInput label="Email" inputIdentifier="email" inputType="email" value="syedecommerce5912@gmail.com" readonly  />
+        <FormInput label="Email" inputIdentifier="email" inputType="email" value="syedecommerce5912@gmail.com" readonly hidden />
         <FormInput label="Subject" inputIdentifier="subject" />
         <FormTextarea label="Message" textareaIdentifier="message" />
 
